@@ -1,9 +1,15 @@
 package org.example.select_helper;
 
+import org.example.select_helper.column.Column;
+
 public class Table {
-    public String tableName;
+    public String name;
 
     public Table(String tableName) {
-        this.tableName = tableName;
+        this.name = tableName;
+    }
+
+    public Column all() {
+        return new Column(this, name + ".*");
     }
 }

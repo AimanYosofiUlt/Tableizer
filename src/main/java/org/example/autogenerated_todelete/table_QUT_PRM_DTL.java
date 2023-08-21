@@ -8,135 +8,135 @@ public final class table_QUT_PRM_DTL extends Table {
         super("QUT_PRM_DTL");
     }
 
-    public Column QUOT_SER = new Column("QUT_PRM_DTL", "QUOT_SER");
+    public Column QUOT_SER = new Column(this, "QUOT_SER");
     ;
 
-    public Column RCRD_NO = new Column("QUT_PRM_DTL", "RCRD_NO");
+    public Column RCRD_NO = new Column(this, "RCRD_NO");
     ;
 
-    public Column QUOT_NO = new Column("QUT_PRM_DTL", "QUOT_NO");
+    public Column QUOT_NO = new Column(this, "QUOT_NO");
     ;
 
-    public Column I_CODE = new Column("QUT_PRM_DTL", "I_CODE");
+    public Column I_CODE = new Column(this, "I_CODE");
     ;
 
-    public Column ITM_UNT = new Column("QUT_PRM_DTL", "ITM_UNT");
+    public Column ITM_UNT = new Column(this, "ITM_UNT");
     ;
 
-    public Column P_SIZE = new Column("QUT_PRM_DTL", "P_SIZE");
+    public Column P_SIZE = new Column(this, "P_SIZE");
     ;
 
-    public Column I_PRICE = new Column("QUT_PRM_DTL", "I_PRICE");
+    public Column I_PRICE = new Column(this, "I_PRICE");
     ;
 
-    public Column BARCODE = new Column("QUT_PRM_DTL", "BARCODE");
+    public Column BARCODE = new Column(this, "BARCODE");
     ;
 
-    public Column F_QTY = new Column("QUT_PRM_DTL", "F_QTY");
+    public Column F_QTY = new Column(this, "F_QTY");
     ;
 
-    public Column T_QTY = new Column("QUT_PRM_DTL", "T_QTY");
+    public Column T_QTY = new Column(this, "T_QTY");
     ;
 
-    public Column F_AMT = new Column("QUT_PRM_DTL", "F_AMT");
+    public Column F_AMT = new Column(this, "F_AMT");
     ;
 
-    public Column T_AMT = new Column("QUT_PRM_DTL", "T_AMT");
+    public Column T_AMT = new Column(this, "T_AMT");
     ;
 
-    public Column DISC_TYPE = new Column("QUT_PRM_DTL", "DISC_TYPE");
+    public Column DISC_TYPE = new Column(this, "DISC_TYPE");
     ;
 
-    public Column DISC_AMT_PER = new Column("QUT_PRM_DTL", "DISC_AMT_PER");
+    public Column DISC_AMT_PER = new Column(this, "DISC_AMT_PER");
     ;
 
-    public Column QT_I_CODE = new Column("QUT_PRM_DTL", "QT_I_CODE");
+    public Column QT_I_CODE = new Column(this, "QT_I_CODE");
     ;
 
-    public Column FREE_QTY = new Column("QUT_PRM_DTL", "FREE_QTY");
+    public Column FREE_QTY = new Column(this, "FREE_QTY");
     ;
 
-    public Column QT_ITM_UNT = new Column("QUT_PRM_DTL", "QT_ITM_UNT");
+    public Column QT_ITM_UNT = new Column(this, "QT_ITM_UNT");
     ;
 
-    public Column QT_QTY = new Column("QUT_PRM_DTL", "QT_QTY");
+    public Column QT_QTY = new Column(this, "QT_QTY");
     ;
 
-    public Column W_CODE = new Column("QUT_PRM_DTL", "W_CODE");
+    public Column W_CODE = new Column(this, "W_CODE");
     ;
 
-    public Column WHG_CODE = new Column("QUT_PRM_DTL", "WHG_CODE");
+    public Column WHG_CODE = new Column(this, "WHG_CODE");
     ;
 
-    public Column CNTRY_NO = new Column("QUT_PRM_DTL", "CNTRY_NO");
+    public Column CNTRY_NO = new Column(this, "CNTRY_NO");
     ;
 
-    public Column PROV_NO = new Column("QUT_PRM_DTL", "PROV_NO");
+    public Column PROV_NO = new Column(this, "PROV_NO");
     ;
 
-    public Column CITY_NO = new Column("QUT_PRM_DTL", "CITY_NO");
+    public Column CITY_NO = new Column(this, "CITY_NO");
     ;
 
-    public Column R_CODE = new Column("QUT_PRM_DTL", "R_CODE");
+    public Column R_CODE = new Column(this, "R_CODE");
     ;
 
-    public Column CARD_AMT = new Column("QUT_PRM_DTL", "CARD_AMT");
+    public Column CARD_AMT = new Column(this, "CARD_AMT");
     ;
 
-    public Column COMP_QTY = new Column("QUT_PRM_DTL", "COMP_QTY");
+    public Column COMP_QTY = new Column(this, "COMP_QTY");
     ;
 
-    public Column EXPIRE_DATE = new Column("QUT_PRM_DTL", "EXPIRE_DATE");
+    public Column EXPIRE_DATE = new Column(this, "EXPIRE_DATE");
     ;
 
-    public Column BATCH_NO = new Column("QUT_PRM_DTL", "BATCH_NO");
+    public Column BATCH_NO = new Column(this, "BATCH_NO");
     ;
 
-    public Column C_CODE = new Column("QUT_PRM_DTL", "C_CODE");
+    public Column C_CODE = new Column(this, "C_CODE");
     ;
 
-    public Column C_GROUP_CODE = new Column("QUT_PRM_DTL", "C_GROUP_CODE");
+    public Column C_GROUP_CODE = new Column(this, "C_GROUP_CODE");
     ;
 
-    public Column C_CLASS = new Column("QUT_PRM_DTL", "C_CLASS");
+    public Column C_CLASS = new Column(this, "C_CLASS");
     ;
 
-    public Column C_DEGREE = new Column("QUT_PRM_DTL", "C_DEGREE");
+    public Column C_DEGREE = new Column(this, "C_DEGREE");
     ;
 
-    public Column G_CODE = new Column("QUT_PRM_DTL", "G_CODE");
+    public Column G_CODE = new Column(this, "G_CODE");
     ;
 
-    public Column MNG_CODE = new Column("QUT_PRM_DTL", "MNG_CODE");
+    public Column MNG_CODE = new Column(this, "MNG_CODE");
     ;
 
-    public Column SUBG_CODE = new Column("QUT_PRM_DTL", "SUBG_CODE");
+    public Column SUBG_CODE = new Column(this, "SUBG_CODE");
     ;
 
-    public Column ASSISTANT_NO = new Column("QUT_PRM_DTL", "ASSISTANT_NO");
+    public Column ASSISTANT_NO = new Column(this, "ASSISTANT_NO");
     ;
 
-    public Column DETAIL_NO = new Column("QUT_PRM_DTL", "DETAIL_NO");
+    public Column DETAIL_NO = new Column(this, "DETAIL_NO");
     ;
 
-    public Column GROUP_NO = new Column("QUT_PRM_DTL", "GROUP_NO");
+    public Column GROUP_NO = new Column(this, "GROUP_NO");
     ;
 
-    public Column ITEM_TYPE = new Column("QUT_PRM_DTL", "ITEM_TYPE");
+    public Column ITEM_TYPE = new Column(this, "ITEM_TYPE");
     ;
 
-    public Column GRP_CLASS_CODE = new Column("QUT_PRM_DTL", "GRP_CLASS_CODE");
+    public Column GRP_CLASS_CODE = new Column(this, "GRP_CLASS_CODE");
     ;
 
-    public Column PRM_GRP_NO = new Column("QUT_PRM_DTL", "PRM_GRP_NO");
+    public Column PRM_GRP_NO = new Column(this, "PRM_GRP_NO");
     ;
 
-    public Column BANK_NO = new Column("QUT_PRM_DTL", "BANK_NO");
+    public Column BANK_NO = new Column(this, "BANK_NO");
     ;
 
-    public Column MAX_QT_QTY_DOC = new Column("QUT_PRM_DTL", "MAX_QT_QTY_DOC");
+    public Column MAX_QT_QTY_DOC = new Column(this, "MAX_QT_QTY_DOC");
     ;
 
-    public Column VER_NO = new Column("QUT_PRM_DTL", "VER_NO");
+    public Column VER_NO = new Column(this, "VER_NO");
     ;
 }
